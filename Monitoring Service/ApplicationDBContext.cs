@@ -27,6 +27,7 @@ namespace FCC_SERVICE
             //}
         }
         public virtual DbSet<FCCModel> FCCModel { get; set; }
+        public virtual DbSet<FCCDetailModel> FCCDetailModel { get; set; }
 
     }
 }
